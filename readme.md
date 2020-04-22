@@ -1,4 +1,4 @@
-# GSDS Sandbox
+# Bootstrap Sandbox
 
 ## How to use 
 
