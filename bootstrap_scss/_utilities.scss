@@ -448,7 +448,7 @@ $utilities: map-merge(
           "black-50": rgba($black, .5),
           "white-50": rgba($white, .5),
           "reset": inherit,
-          "info": darken($info, 5%),
+          "info": darken($info, 15%),
           "success": darken($success, 8%),
           "warning": darken($warning, 22%),
           "danger": darken($danger, 9%),

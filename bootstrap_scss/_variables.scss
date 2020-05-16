@@ -40,10 +40,11 @@ $orange:  #fd7e14 !default;
 $yellow:  #f29836 !default;
 $green:   #26ac0b !default;
 $teal:    #20c997 !default;
-$cyan:    #007aff !default;
+$cyan:    #1face2 !default;
 $dark:    #3e464f !default;
 $light:   #bec2c4 !default;
-$brand:   #154898 !default;
+$brand:   #0F69E3 !default;
+$brand-alt:   #D91589 !default;
 
 
 $colors: (
@@ -63,6 +64,7 @@ $colors: (
 ) !default;
 
 $primary:       $brand !default;
+$primary-alt:       $brand-alt !default;
 $secondary:     $gray-500 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -81,6 +83,7 @@ $lvl-alt4:     $gray-900 !default;
 
 $theme-colors: (
   "primary":    $primary,
+  "primary-alt":    $primary-alt,
   "secondary":  $secondary,
   "success":    $success,
   "info":       $info,
@@ -102,6 +105,12 @@ $theme-colors: (
   "primary-alpha-20":  rgba($primary, .20),
   "primary-alpha-10":  rgba($primary, .10),
   "primary-alpha-5":  rgba($primary, .05),
+
+  "primary-alt-alpha-70":  rgba($primary-alt, .70),
+  "primary-alt-alpha-40":  rgba($primary-alt, .40),
+  "primary-alt-alpha-20":  rgba($primary-alt, .20),
+  "primary-alt-alpha-10":  rgba($primary-alt, .10),
+  "primary-alt-alpha-5":  rgba($primary-alt, .05),
 
   "secondary-alpha-70":  rgba($secondary, .70),
   "secondary-alpha-40":  rgba($secondary, .40),
