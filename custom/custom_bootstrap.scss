@@ -1,0 +1,9 @@
+//Bootstrap override here
+@import "_custom_variable.scss";
+
+//bootstrap here
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//added 
+@import "mixins";
+@import "buttons";

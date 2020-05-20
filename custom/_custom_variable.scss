@@ -1,0 +1,301 @@
+
+// Color system
+
+$white:    #fff !default;
+$gray-100: #fafafb !default;
+$gray-200: #f1f2f2 !default;
+$gray-300: #e4e5e6 !default;
+$gray-400: #dde0e2 !default;
+$gray-500: #72757e !default;
+$gray-600: #313a43 !default;
+$gray-700: #252e38 !default;
+$gray-800: #17222f !default;
+$gray-900: #0e1823 !default;
+$black:    #000 !default;
+
+// fusv-disable
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+// fusv-enable
+
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #EB4E3D !default;
+$orange:  #fd7e14 !default;
+$yellow:  #f29836 !default;
+$green:   #26ac0b !default;
+$teal:    #20c997 !default;
+$cyan:    #007aff !default;
+$dark:    #3e464f !default;
+$light:   #bec2c4 !default;
+$brand:   #154898 !default;
+
+
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+) !default;
+
+$primary:       $brand !default;
+$secondary:     $gray-500 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $light !default;
+$dark:          $dark !default;
+$lvl1:          $gray-100 !default;
+$lvl2:          $gray-200 !default;
+$lvl3:          $gray-300 !default;
+$lvl4:          $gray-400 !default;
+$lvl-alt1:     $gray-600 !default;
+$lvl-alt2:     $gray-700 !default;
+$lvl-alt3:     $gray-800 !default;
+$lvl-alt4:     $gray-900 !default;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "lvl1":       $lvl1,
+  "lvl2":       $lvl2,
+  "lvl3":       $lvl3,
+  "lvl4":       $lvl4,
+  "lvl-alt1":       $lvl-alt1,
+  "lvl-alt2":       $lvl-alt2,
+  "lvl-alt3":       $lvl-alt3,
+  "lvl-alt4":       $lvl-alt4,
+
+  "primary-alpha-70":  rgba($primary, .70),
+  "primary-alpha-40":  rgba($primary, .40),
+  "primary-alpha-20":  rgba($primary, .20),
+  "primary-alpha-10":  rgba($primary, .10),
+  "primary-alpha-5":  rgba($primary, .05),
+
+  "secondary-alpha-70":  rgba($secondary, .70),
+  "secondary-alpha-40":  rgba($secondary, .40),
+  "secondary-alpha-20":  rgba($secondary, .20),
+  "secondary-alpha-10":  rgba($secondary, .10),
+  "secondary-alpha-5":  rgba($secondary, .05),
+
+  "dark-alpha-70":  rgba($dark, .70),
+  "dark-alpha-40":  rgba($dark, .40),
+  "dark-alpha-20":  rgba($dark, .20),
+  "dark-alpha-10":  rgba($dark, .10),
+  "dark-alpha-5":  rgba($dark, .05),
+
+  "light-alpha-70":  rgba($light, .70),
+  "light-alpha-40":  rgba($light, .40),
+  "light-alpha-20":  rgba($light, .20),
+  "light-alpha-10":  rgba($light, .10),
+  "light-alpha-5":  rgba($light, .05),
+
+  "info-alpha-70":  rgba($info, .70),
+  "info-alpha-40":  rgba($info, .40),
+  "info-alpha-20":  rgba($info, .20),
+  "info-alpha-10":  rgba($info, .10),
+  "info-alpha-5":  rgba($info, .05),
+
+  "success-alpha-70":  rgba($success, .70),
+  "success-alpha-40":  rgba($success, .40),
+  "success-alpha-20":  rgba($success, .20),
+  "success-alpha-10":  rgba($success, .10),
+  "success-alpha-5":  rgba($success, .05),
+
+  "warning-alpha-70":  rgba($warning, .70),
+  "warning-alpha-40":  rgba($warning, .40),
+  "warning-alpha-20":  rgba($warning, .20),
+  "warning-alpha-10":  rgba($warning, .10),
+  "warning-alpha-5":  rgba($warning, .05),
+
+  "danger-alpha-70":  rgba($danger, .70),
+  "danger-alpha-40":  rgba($danger, .40),
+  "danger-alpha-20":  rgba($danger, .20),
+  "danger-alpha-10":  rgba($danger, .10),
+  "danger-alpha-5":  rgba($danger, .05),
+
+
+) !default;
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 2),
+    6: ($spacer * 3),
+    7: ($spacer * 4),
+    8: ($spacer * 10),
+    9: ($spacer * 16),
+  ),
+  $spacers
+);
+
+// Links
+//
+// Style anchor elements.
+
+$link-hover-decoration:                   none !default;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  //start added
+    xxl: 1400px
+  //end added
+) !default;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  //start added
+    xxl: 1320px
+  //end added
+) !default;
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$border-radius:               1.5rem !default;
+$border-radius-lg:            2rem !default;
+$border-radius-sm:            1rem !default;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      "Inter" !default;
+
+// stylelint-enable value-keyword-case
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-xs:                $font-size-base * .75 !default;
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+
+$icon-size-xs:                $font-size-base * 1.125 !default;
+$icon-size-sm:                $font-size-base * 1.5 !default;
+$icon-size-lg:                $font-size-base * 2 !default;
+$icon-size-xl:                $font-size-base * 3 !default;
+$icon-size-xxl:                $font-size-base * 4 !default;
+
+$font-weight-lighter:         200 !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+//start added
+    $font-weight-medium:          500 !default;
+//end added
+$font-weight-bold:            600 !default;
+$font-weight-bolder:          700 !default;
+
+$h1-font-size:                $font-size-base * 2 !default;
+$h2-font-size:                $font-size-base * 1.75 !default;
+$h3-font-size:                $font-size-base * 1.5 !default;
+$h4-font-size:                $font-size-base * 1.375 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$headings-margin-bottom:      0 !default;
+
+$display1-size:               4rem !default;
+$display2-size:               3.5rem !default;
+$display3-size:               2.625rem !default;
+$display4-size:               2.125rem !default;
+
+$display1-weight:             600 !default;
+$display2-weight:             600 !default;
+$display3-weight:             500 !default;
+$display4-weight:             500 !default;
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+$input-btn-padding-x:         1.25rem !default;
+
+$input-btn-padding-y-sm:      .125rem !default;
+$input-btn-padding-x-sm:      1rem !default;
+$input-btn-font-size-sm:      $font-size-base !default;
+
+$input-btn-padding-y-lg:      .625rem !default;
+$input-btn-padding-x-lg:      1.5rem !default;
+$input-btn-font-size-lg:      $font-size-base !default;
+
+$input-btn-border-width:      2px !default;
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+
+// Forms
+//
+//
+
+$input-bg:                              rgba($secondary, .20) !default;
+$input-disabled-bg:                     rgba($secondary, .5) !default;
+
+$input-color:                           $black !default;
+$input-border-color:                    rgba($secondary, .20) !default;
+
+$input-focus-border-color:              $secondary !default;
+
+$input-placeholder-color:               $gray-500 !default;
+
+
+$custom-select-border-radius:       $border-radius !default;

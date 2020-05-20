@@ -1,0 +1,28 @@
+@each $color, $value in $theme-colors {
+    .btn-discreet-#{$color} {
+      @include button-discreet-variant($value);
+    }
+  }
+  
+  .btn-default {
+    border-width: $border-width;
+    border-color: $border-color;
+    padding: cal;
+    
+    &:hover {
+      background-color: rgba($secondary, 0.05);
+    }
+  
+    &:focus,
+    &.focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba($secondary, 0.25);
+    }
+  
+    &:disabled,
+    &.disabled {
+      
+    }
+  
+    // No need for an active state here
+  }
