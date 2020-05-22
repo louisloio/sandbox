@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style/app.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>GSDS</title>
+</head>
+
+<body>
+    <div class="container mt-8">
+        <h1 class="display-1 mb-6 text-primary">List items Sidebar</h1>
+        <div class="row mb-8">
+            <div class="col-md-4">
+                <h1>List items channels</h1>
+                <div class="bg-lvl1">
+
+                    <ul class="list-group-sidebar">
+                        <a href="#" id="pizza_east" class="list-group-item-sidebar-action active">
+                            <div class="avatar"></div>
+                            Channel item
+                        </a>
+                        <a href="#" class="list-group-item-sidebar-action">
+                            <div class="avatar"></div>
+                            Channel item
+                        </a>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h1>List items category</h1>
+                <div class="bg-lvl1">
+
+                    <ul class="list-group-sidebar">
+                        <a href="#" class="list-group-item-sidebar-action active">
+                            Channel item
+                        </a>
+                        <a href="#" class="list-group-item-sidebar-action">
+                            Channel item
+                        </a>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h1>List items status</h1>
+                <div class="bg-lvl1">
+
+                    <ul class="list-group-sidebar">
+                        <a href="#" class="list-group-item-sidebar-action active">
+                            <i class="material-icons icon-xs text-secondary mr-1">fiber_manual_record</i>Channel item
+                        </a>
+                        <a href="#" class="list-group-item-sidebar-action">
+                            <i class="material-icons icon-xs text-info mr-1">fiber_manual_record</i>Channel item
+                        </a>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <h1 class="display-1 mb-6 text-primary">List items Panel</h1>
+        <div class="row mb-8">
+            <div class="col-md-4">
+                <h1>List-items-order</h1>
+                <div class="border">
+
+                    <ul class="list-group-panel">
+                        <li href="#" class="list-group-item-panel">
+                            <div id="menu_item" class="col-2 p-0 flex-row">
+                                <button onclick="openMenu()" class="btn btn-icon btn-sm btn-link mr-1"><i class="material-icons">more_horiz</i></button>
+                                <span id="menu_item_button" class="d-none">
+                                    <button class="btn btn-icon btn-sm btn-default mr-1"><i class="material-icons">info</i></button>
+                                    <button class="btn btn-icon btn-sm btn-outline-danger mr-1"><i class="material-icons">remove</i></button>
+                                    <button class="btn btn-icon btn-sm btn-outline-success"><i class="material-icons">add</i></button>
+                                </span>
+                            </div>
+                            <div class="text-sm mt-2 col-8 p-0">
+                                <div>
+                                    <span>x1</span>
+                                    <span>regina</span>
+                                </div>
+                            </div>
+                            <div class="text-sm text-right mt-2 col-2 p-0">
+                                <span>£12.00</span>
+                            </div>
+                        </li>
+                        <li href="#" class="list-group-item-panel">
+                            <div id="menu_item" class="col-2 p-0">
+                                <button id="item1" onclick="openMenu2()" class="btn btn-icon btn-sm btn-link mr-1"><i class="material-icons">more_horiz</i></button>
+                                <span class="d-none">
+                                    <button class="btn btn-icon btn-sm btn-default mr-1"><i class="material-icons">info</i></button>
+                                    <button class="btn btn-icon btn-sm btn-outline-danger mr-1"><i class="material-icons">remove</i></button>
+                                    <button class="btn btn-icon btn-sm btn-outline-success"><i class="material-icons">add</i></button>
+                                </span>
+                            </div>
+                            <div class="text-sm mt-2 col-8 p-0">
+                                <div>
+                                    <span>x1</span>
+                                    <span>regina</span>
+                                </div>
+                                <div class="ml-3">
+                                    <span>x1</span>
+                                    <span>regina</span>
+                                </div>
+                            </div>
+                            <div class="text-sm text-right mt-2 col-2 p-0">
+                                <span>£12.00</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openMenu() {
+           var element = document.getElementById("menu_item_button");
+           element.classList.toggle("d-none");
+           var element = document.getElementById("menu_item");
+           element.classList.toggle("d-flex");
+        }
+        function openMenu2() {
+            var element = document.getElementById("item1").nextElementSibling;
+            elment.classList.toggle("d-none");
+            
+
+        }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
