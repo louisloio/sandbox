@@ -1,4 +1,3 @@
-@import url(../style/inter/inter.css);
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -17049,7 +17048,7 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
       margin-top: -1px;
       border-top-width: 1px; }
 
-#pizza_east.avatar {
+#pizza_east > .avatar {
   background-image: url(https://cdn.dribbble.com/users/595119/screenshots/1971790/resto_logo_preview__dribbble__800x600px_c.png); }
 
 .avatar {
@@ -17060,7 +17059,7 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
   border-radius: 1rem;
   margin-right: .5rem;
   box-shadow: 0px 0 0px 1px #e4e5e6;
-  text-indent: -99999px; }
+  text-indent: 99999px; }
 
 .list-group-sidebar {
   display: flex;
@@ -17089,4 +17088,4 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
   .list-group-item-sidebar-action.active {
     color: #0F69E3; }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=custom_bootstrap.css.map */

@@ -7,7 +7,7 @@ $padding-12:    .75rem;
 //
 // Easily usable on <ul>, <ol>, or <div>.
 
-#pizza_east > .avatar{
+#pizza_east.avatar{
   background-image: url(https://cdn.dribbble.com/users/595119/screenshots/1971790/resto_logo_preview__dribbble__800x600px_c.png);
 }
 
@@ -19,6 +19,7 @@ $padding-12:    .75rem;
   border-radius: 1rem;
   margin-right: .5rem;
   box-shadow: 0px 0 0px 1px $gray-300 ;
+  text-indent: -99999px;
 
 }
 
