@@ -8,10 +8,10 @@
   @each $color, $value in $theme-colors {
     .btn-outline-#{$color} {
       @include button-outline-variant($value);
-      box-shadow: inset 0px 0 0 1px !important;
+      box-shadow: inset 0px 0 0 1px ;
       
       &:hover {
-        box-shadow: inset 0px 0 0 1px $value !important;
+        box-shadow: inset 0px 0 0 1px $value;
       }
     }
   }

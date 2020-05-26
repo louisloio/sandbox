@@ -15698,7 +15698,7 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
 .btn-outline-primary {
   color: #0F69E3;
   border-color: #0F69E3;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary:hover {
     color: #fff;
     background-color: #0F69E3;
@@ -15715,12 +15715,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(15, 105, 227, 0.5); }
   .btn-outline-primary:hover {
-    box-shadow: inset 0px 0 0 1px #0F69E3 !important; }
+    box-shadow: inset 0px 0 0 1px #0F69E3; }
 
 .btn-outline-secondary {
   color: #72757e;
   border-color: #72757e;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-secondary:hover {
     color: #fff;
     background-color: #72757e;
@@ -15737,12 +15737,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(114, 117, 126, 0.5); }
   .btn-outline-secondary:hover {
-    box-shadow: inset 0px 0 0 1px #72757e !important; }
+    box-shadow: inset 0px 0 0 1px #72757e; }
 
 .btn-outline-success {
   color: #26ac0b;
   border-color: #26ac0b;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-success:hover {
     color: #fff;
     background-color: #26ac0b;
@@ -15759,12 +15759,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-success.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(38, 172, 11, 0.5); }
   .btn-outline-success:hover {
-    box-shadow: inset 0px 0 0 1px #26ac0b !important; }
+    box-shadow: inset 0px 0 0 1px #26ac0b; }
 
 .btn-outline-info {
   color: #1face2;
   border-color: #1face2;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-info:hover {
     color: #fff;
     background-color: #1face2;
@@ -15781,12 +15781,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-info.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(31, 172, 226, 0.5); }
   .btn-outline-info:hover {
-    box-shadow: inset 0px 0 0 1px #1face2 !important; }
+    box-shadow: inset 0px 0 0 1px #1face2; }
 
 .btn-outline-warning {
   color: #f29836;
   border-color: #f29836;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-warning:hover {
     color: #0e1823;
     background-color: #f29836;
@@ -15803,12 +15803,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .btn-outline-warning:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-warning.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(242, 152, 54, 0.5); }
   .btn-outline-warning:hover {
-    box-shadow: inset 0px 0 0 1px #f29836 !important; }
+    box-shadow: inset 0px 0 0 1px #f29836; }
 
 .btn-outline-danger {
   color: #EB4E3D;
   border-color: #EB4E3D;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-danger:hover {
     color: #fff;
     background-color: #EB4E3D;
@@ -15825,12 +15825,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .btn-outline-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-danger.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(235, 78, 61, 0.5); }
   .btn-outline-danger:hover {
-    box-shadow: inset 0px 0 0 1px #EB4E3D !important; }
+    box-shadow: inset 0px 0 0 1px #EB4E3D; }
 
 .btn-outline-light {
   color: #bec2c4;
   border-color: #bec2c4;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-light:hover {
     color: #0e1823;
     background-color: #bec2c4;
@@ -15847,12 +15847,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-light:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-light.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(190, 194, 196, 0.5); }
   .btn-outline-light:hover {
-    box-shadow: inset 0px 0 0 1px #bec2c4 !important; }
+    box-shadow: inset 0px 0 0 1px #bec2c4; }
 
 .btn-outline-dark {
   color: #3e464f;
   border-color: #3e464f;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-dark:hover {
     color: #fff;
     background-color: #3e464f;
@@ -15869,12 +15869,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(62, 70, 79, 0.5); }
   .btn-outline-dark:hover {
-    box-shadow: inset 0px 0 0 1px #3e464f !important; }
+    box-shadow: inset 0px 0 0 1px #3e464f; }
 
 .btn-outline-primary-alt {
   color: #D91589;
   border-color: #D91589;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alt:hover {
     color: #fff;
     background-color: #D91589;
@@ -15891,12 +15891,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alt:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alt:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alt.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(217, 21, 137, 0.5); }
   .btn-outline-primary-alt:hover {
-    box-shadow: inset 0px 0 0 1px #D91589 !important; }
+    box-shadow: inset 0px 0 0 1px #D91589; }
 
 .btn-outline-lvl1 {
   color: #fafafb;
   border-color: #fafafb;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-lvl1:hover {
     color: #0e1823;
     background-color: #fafafb;
@@ -15913,12 +15913,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-lvl1:not(:disabled):not(.disabled):active:focus, .btn-outline-lvl1:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lvl1.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(250, 250, 251, 0.5); }
   .btn-outline-lvl1:hover {
-    box-shadow: inset 0px 0 0 1px #fafafb !important; }
+    box-shadow: inset 0px 0 0 1px #fafafb; }
 
 .btn-outline-lvl2 {
   color: #f1f2f2;
   border-color: #f1f2f2;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-lvl2:hover {
     color: #0e1823;
     background-color: #f1f2f2;
@@ -15935,12 +15935,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-lvl2:not(:disabled):not(.disabled):active:focus, .btn-outline-lvl2:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lvl2.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(241, 242, 242, 0.5); }
   .btn-outline-lvl2:hover {
-    box-shadow: inset 0px 0 0 1px #f1f2f2 !important; }
+    box-shadow: inset 0px 0 0 1px #f1f2f2; }
 
 .btn-outline-lvl3 {
   color: #e4e5e6;
   border-color: #e4e5e6;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-lvl3:hover {
     color: #0e1823;
     background-color: #e4e5e6;
@@ -15957,12 +15957,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-lvl3:not(:disabled):not(.disabled):active:focus, .btn-outline-lvl3:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lvl3.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(228, 229, 230, 0.5); }
   .btn-outline-lvl3:hover {
-    box-shadow: inset 0px 0 0 1px #e4e5e6 !important; }
+    box-shadow: inset 0px 0 0 1px #e4e5e6; }
 
 .btn-outline-lvl4 {
   color: #dde0e2;
   border-color: #dde0e2;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-lvl4:hover {
     color: #0e1823;
     background-color: #dde0e2;
@@ -15979,12 +15979,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-lvl4:not(:disabled):not(.disabled):active:focus, .btn-outline-lvl4:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lvl4.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(221, 224, 226, 0.5); }
   .btn-outline-lvl4:hover {
-    box-shadow: inset 0px 0 0 1px #dde0e2 !important; }
+    box-shadow: inset 0px 0 0 1px #dde0e2; }
 
 .btn-outline-lvl-alt1 {
   color: #313a43;
   border-color: #313a43;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-lvl-alt1:hover {
     color: #fff;
     background-color: #313a43;
@@ -16001,12 +16001,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-lvl-alt1:not(:disabled):not(.disabled):active:focus, .btn-outline-lvl-alt1:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lvl-alt1.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(49, 58, 67, 0.5); }
   .btn-outline-lvl-alt1:hover {
-    box-shadow: inset 0px 0 0 1px #313a43 !important; }
+    box-shadow: inset 0px 0 0 1px #313a43; }
 
 .btn-outline-lvl-alt2 {
   color: #252e38;
   border-color: #252e38;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-lvl-alt2:hover {
     color: #fff;
     background-color: #252e38;
@@ -16023,12 +16023,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-lvl-alt2:not(:disabled):not(.disabled):active:focus, .btn-outline-lvl-alt2:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lvl-alt2.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(37, 46, 56, 0.5); }
   .btn-outline-lvl-alt2:hover {
-    box-shadow: inset 0px 0 0 1px #252e38 !important; }
+    box-shadow: inset 0px 0 0 1px #252e38; }
 
 .btn-outline-lvl-alt3 {
   color: #17222f;
   border-color: #17222f;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-lvl-alt3:hover {
     color: #fff;
     background-color: #17222f;
@@ -16045,12 +16045,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-lvl-alt3:not(:disabled):not(.disabled):active:focus, .btn-outline-lvl-alt3:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lvl-alt3.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(23, 34, 47, 0.5); }
   .btn-outline-lvl-alt3:hover {
-    box-shadow: inset 0px 0 0 1px #17222f !important; }
+    box-shadow: inset 0px 0 0 1px #17222f; }
 
 .btn-outline-lvl-alt4 {
   color: #0e1823;
   border-color: #0e1823;
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-lvl-alt4:hover {
     color: #fff;
     background-color: #0e1823;
@@ -16067,12 +16067,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-lvl-alt4:not(:disabled):not(.disabled):active:focus, .btn-outline-lvl-alt4:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-lvl-alt4.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(14, 24, 35, 0.5); }
   .btn-outline-lvl-alt4:hover {
-    box-shadow: inset 0px 0 0 1px #0e1823 !important; }
+    box-shadow: inset 0px 0 0 1px #0e1823; }
 
 .btn-outline-primary-alpha-70 {
   color: rgba(15, 105, 227, 0.7);
   border-color: rgba(15, 105, 227, 0.7);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alpha-70:hover {
     color: #fff;
     background-color: rgba(15, 105, 227, 0.7);
@@ -16089,12 +16089,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alpha-70:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alpha-70:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alpha-70.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(15, 105, 227, 0.5); }
   .btn-outline-primary-alpha-70:hover {
-    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.7) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.7); }
 
 .btn-outline-primary-alpha-40 {
   color: rgba(15, 105, 227, 0.4);
   border-color: rgba(15, 105, 227, 0.4);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alpha-40:hover {
     color: #fff;
     background-color: rgba(15, 105, 227, 0.4);
@@ -16111,12 +16111,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alpha-40:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alpha-40:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alpha-40.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(15, 105, 227, 0.5); }
   .btn-outline-primary-alpha-40:hover {
-    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.4) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.4); }
 
 .btn-outline-primary-alpha-20 {
   color: rgba(15, 105, 227, 0.2);
   border-color: rgba(15, 105, 227, 0.2);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alpha-20:hover {
     color: #fff;
     background-color: rgba(15, 105, 227, 0.2);
@@ -16133,12 +16133,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alpha-20:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alpha-20:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alpha-20.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(15, 105, 227, 0.5); }
   .btn-outline-primary-alpha-20:hover {
-    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.2) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.2); }
 
 .btn-outline-primary-alpha-10 {
   color: rgba(15, 105, 227, 0.1);
   border-color: rgba(15, 105, 227, 0.1);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alpha-10:hover {
     color: #fff;
     background-color: rgba(15, 105, 227, 0.1);
@@ -16155,12 +16155,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alpha-10:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alpha-10:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alpha-10.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(15, 105, 227, 0.5); }
   .btn-outline-primary-alpha-10:hover {
-    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.1) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.1); }
 
 .btn-outline-primary-alpha-5 {
   color: rgba(15, 105, 227, 0.05);
   border-color: rgba(15, 105, 227, 0.05);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alpha-5:hover {
     color: #fff;
     background-color: rgba(15, 105, 227, 0.05);
@@ -16177,12 +16177,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alpha-5:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alpha-5:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alpha-5.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(15, 105, 227, 0.5); }
   .btn-outline-primary-alpha-5:hover {
-    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.05) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(15, 105, 227, 0.05); }
 
 .btn-outline-primary-alt-alpha-70 {
   color: rgba(217, 21, 137, 0.7);
   border-color: rgba(217, 21, 137, 0.7);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alt-alpha-70:hover {
     color: #fff;
     background-color: rgba(217, 21, 137, 0.7);
@@ -16199,12 +16199,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alt-alpha-70:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alt-alpha-70:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alt-alpha-70.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(217, 21, 137, 0.5); }
   .btn-outline-primary-alt-alpha-70:hover {
-    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.7) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.7); }
 
 .btn-outline-primary-alt-alpha-40 {
   color: rgba(217, 21, 137, 0.4);
   border-color: rgba(217, 21, 137, 0.4);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alt-alpha-40:hover {
     color: #fff;
     background-color: rgba(217, 21, 137, 0.4);
@@ -16221,12 +16221,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alt-alpha-40:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alt-alpha-40:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alt-alpha-40.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(217, 21, 137, 0.5); }
   .btn-outline-primary-alt-alpha-40:hover {
-    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.4) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.4); }
 
 .btn-outline-primary-alt-alpha-20 {
   color: rgba(217, 21, 137, 0.2);
   border-color: rgba(217, 21, 137, 0.2);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alt-alpha-20:hover {
     color: #fff;
     background-color: rgba(217, 21, 137, 0.2);
@@ -16243,12 +16243,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alt-alpha-20:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alt-alpha-20:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alt-alpha-20.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(217, 21, 137, 0.5); }
   .btn-outline-primary-alt-alpha-20:hover {
-    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.2) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.2); }
 
 .btn-outline-primary-alt-alpha-10 {
   color: rgba(217, 21, 137, 0.1);
   border-color: rgba(217, 21, 137, 0.1);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alt-alpha-10:hover {
     color: #fff;
     background-color: rgba(217, 21, 137, 0.1);
@@ -16265,12 +16265,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alt-alpha-10:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alt-alpha-10:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alt-alpha-10.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(217, 21, 137, 0.5); }
   .btn-outline-primary-alt-alpha-10:hover {
-    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.1) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.1); }
 
 .btn-outline-primary-alt-alpha-5 {
   color: rgba(217, 21, 137, 0.05);
   border-color: rgba(217, 21, 137, 0.05);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-primary-alt-alpha-5:hover {
     color: #fff;
     background-color: rgba(217, 21, 137, 0.05);
@@ -16287,12 +16287,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-primary-alt-alpha-5:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-alt-alpha-5:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary-alt-alpha-5.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(217, 21, 137, 0.5); }
   .btn-outline-primary-alt-alpha-5:hover {
-    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.05) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(217, 21, 137, 0.05); }
 
 .btn-outline-secondary-alpha-70 {
   color: rgba(114, 117, 126, 0.7);
   border-color: rgba(114, 117, 126, 0.7);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-secondary-alpha-70:hover {
     color: #fff;
     background-color: rgba(114, 117, 126, 0.7);
@@ -16309,12 +16309,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-secondary-alpha-70:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary-alpha-70:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary-alpha-70.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(114, 117, 126, 0.5); }
   .btn-outline-secondary-alpha-70:hover {
-    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.7) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.7); }
 
 .btn-outline-secondary-alpha-40 {
   color: rgba(114, 117, 126, 0.4);
   border-color: rgba(114, 117, 126, 0.4);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-secondary-alpha-40:hover {
     color: #fff;
     background-color: rgba(114, 117, 126, 0.4);
@@ -16331,12 +16331,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-secondary-alpha-40:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary-alpha-40:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary-alpha-40.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(114, 117, 126, 0.5); }
   .btn-outline-secondary-alpha-40:hover {
-    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.4) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.4); }
 
 .btn-outline-secondary-alpha-20 {
   color: rgba(114, 117, 126, 0.2);
   border-color: rgba(114, 117, 126, 0.2);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-secondary-alpha-20:hover {
     color: #fff;
     background-color: rgba(114, 117, 126, 0.2);
@@ -16353,12 +16353,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-secondary-alpha-20:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary-alpha-20:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary-alpha-20.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(114, 117, 126, 0.5); }
   .btn-outline-secondary-alpha-20:hover {
-    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.2) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.2); }
 
 .btn-outline-secondary-alpha-10 {
   color: rgba(114, 117, 126, 0.1);
   border-color: rgba(114, 117, 126, 0.1);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-secondary-alpha-10:hover {
     color: #fff;
     background-color: rgba(114, 117, 126, 0.1);
@@ -16375,12 +16375,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-secondary-alpha-10:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary-alpha-10:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary-alpha-10.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(114, 117, 126, 0.5); }
   .btn-outline-secondary-alpha-10:hover {
-    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.1) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.1); }
 
 .btn-outline-secondary-alpha-5 {
   color: rgba(114, 117, 126, 0.05);
   border-color: rgba(114, 117, 126, 0.05);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-secondary-alpha-5:hover {
     color: #fff;
     background-color: rgba(114, 117, 126, 0.05);
@@ -16397,12 +16397,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-secondary-alpha-5:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary-alpha-5:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary-alpha-5.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(114, 117, 126, 0.5); }
   .btn-outline-secondary-alpha-5:hover {
-    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.05) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(114, 117, 126, 0.05); }
 
 .btn-outline-dark-alpha-70 {
   color: rgba(62, 70, 79, 0.7);
   border-color: rgba(62, 70, 79, 0.7);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-dark-alpha-70:hover {
     color: #fff;
     background-color: rgba(62, 70, 79, 0.7);
@@ -16419,12 +16419,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-dark-alpha-70:not(:disabled):not(.disabled):active:focus, .btn-outline-dark-alpha-70:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark-alpha-70.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(62, 70, 79, 0.5); }
   .btn-outline-dark-alpha-70:hover {
-    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.7) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.7); }
 
 .btn-outline-dark-alpha-40 {
   color: rgba(62, 70, 79, 0.4);
   border-color: rgba(62, 70, 79, 0.4);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-dark-alpha-40:hover {
     color: #fff;
     background-color: rgba(62, 70, 79, 0.4);
@@ -16441,12 +16441,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-dark-alpha-40:not(:disabled):not(.disabled):active:focus, .btn-outline-dark-alpha-40:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark-alpha-40.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(62, 70, 79, 0.5); }
   .btn-outline-dark-alpha-40:hover {
-    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.4) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.4); }
 
 .btn-outline-dark-alpha-20 {
   color: rgba(62, 70, 79, 0.2);
   border-color: rgba(62, 70, 79, 0.2);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-dark-alpha-20:hover {
     color: #fff;
     background-color: rgba(62, 70, 79, 0.2);
@@ -16463,12 +16463,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-dark-alpha-20:not(:disabled):not(.disabled):active:focus, .btn-outline-dark-alpha-20:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark-alpha-20.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(62, 70, 79, 0.5); }
   .btn-outline-dark-alpha-20:hover {
-    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.2) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.2); }
 
 .btn-outline-dark-alpha-10 {
   color: rgba(62, 70, 79, 0.1);
   border-color: rgba(62, 70, 79, 0.1);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-dark-alpha-10:hover {
     color: #fff;
     background-color: rgba(62, 70, 79, 0.1);
@@ -16485,12 +16485,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-dark-alpha-10:not(:disabled):not(.disabled):active:focus, .btn-outline-dark-alpha-10:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark-alpha-10.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(62, 70, 79, 0.5); }
   .btn-outline-dark-alpha-10:hover {
-    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.1) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.1); }
 
 .btn-outline-dark-alpha-5 {
   color: rgba(62, 70, 79, 0.05);
   border-color: rgba(62, 70, 79, 0.05);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-dark-alpha-5:hover {
     color: #fff;
     background-color: rgba(62, 70, 79, 0.05);
@@ -16507,12 +16507,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-dark-alpha-5:not(:disabled):not(.disabled):active:focus, .btn-outline-dark-alpha-5:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark-alpha-5.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(62, 70, 79, 0.5); }
   .btn-outline-dark-alpha-5:hover {
-    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.05) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(62, 70, 79, 0.05); }
 
 .btn-outline-light-alpha-70 {
   color: rgba(190, 194, 196, 0.7);
   border-color: rgba(190, 194, 196, 0.7);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-light-alpha-70:hover {
     color: #0e1823;
     background-color: rgba(190, 194, 196, 0.7);
@@ -16529,12 +16529,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-light-alpha-70:not(:disabled):not(.disabled):active:focus, .btn-outline-light-alpha-70:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-light-alpha-70.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(190, 194, 196, 0.5); }
   .btn-outline-light-alpha-70:hover {
-    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.7) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.7); }
 
 .btn-outline-light-alpha-40 {
   color: rgba(190, 194, 196, 0.4);
   border-color: rgba(190, 194, 196, 0.4);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-light-alpha-40:hover {
     color: #0e1823;
     background-color: rgba(190, 194, 196, 0.4);
@@ -16551,12 +16551,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-light-alpha-40:not(:disabled):not(.disabled):active:focus, .btn-outline-light-alpha-40:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-light-alpha-40.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(190, 194, 196, 0.5); }
   .btn-outline-light-alpha-40:hover {
-    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.4) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.4); }
 
 .btn-outline-light-alpha-20 {
   color: rgba(190, 194, 196, 0.2);
   border-color: rgba(190, 194, 196, 0.2);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-light-alpha-20:hover {
     color: #0e1823;
     background-color: rgba(190, 194, 196, 0.2);
@@ -16573,12 +16573,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-light-alpha-20:not(:disabled):not(.disabled):active:focus, .btn-outline-light-alpha-20:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-light-alpha-20.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(190, 194, 196, 0.5); }
   .btn-outline-light-alpha-20:hover {
-    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.2) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.2); }
 
 .btn-outline-light-alpha-10 {
   color: rgba(190, 194, 196, 0.1);
   border-color: rgba(190, 194, 196, 0.1);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-light-alpha-10:hover {
     color: #0e1823;
     background-color: rgba(190, 194, 196, 0.1);
@@ -16595,12 +16595,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-light-alpha-10:not(:disabled):not(.disabled):active:focus, .btn-outline-light-alpha-10:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-light-alpha-10.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(190, 194, 196, 0.5); }
   .btn-outline-light-alpha-10:hover {
-    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.1) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.1); }
 
 .btn-outline-light-alpha-5 {
   color: rgba(190, 194, 196, 0.05);
   border-color: rgba(190, 194, 196, 0.05);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-light-alpha-5:hover {
     color: #0e1823;
     background-color: rgba(190, 194, 196, 0.05);
@@ -16617,12 +16617,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-light-alpha-5:not(:disabled):not(.disabled):active:focus, .btn-outline-light-alpha-5:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-light-alpha-5.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(190, 194, 196, 0.5); }
   .btn-outline-light-alpha-5:hover {
-    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.05) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(190, 194, 196, 0.05); }
 
 .btn-outline-info-alpha-70 {
   color: rgba(31, 172, 226, 0.7);
   border-color: rgba(31, 172, 226, 0.7);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-info-alpha-70:hover {
     color: #fff;
     background-color: rgba(31, 172, 226, 0.7);
@@ -16639,12 +16639,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-info-alpha-70:not(:disabled):not(.disabled):active:focus, .btn-outline-info-alpha-70:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-info-alpha-70.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(31, 172, 226, 0.5); }
   .btn-outline-info-alpha-70:hover {
-    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.7) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.7); }
 
 .btn-outline-info-alpha-40 {
   color: rgba(31, 172, 226, 0.4);
   border-color: rgba(31, 172, 226, 0.4);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-info-alpha-40:hover {
     color: #fff;
     background-color: rgba(31, 172, 226, 0.4);
@@ -16661,12 +16661,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-info-alpha-40:not(:disabled):not(.disabled):active:focus, .btn-outline-info-alpha-40:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-info-alpha-40.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(31, 172, 226, 0.5); }
   .btn-outline-info-alpha-40:hover {
-    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.4) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.4); }
 
 .btn-outline-info-alpha-20 {
   color: rgba(31, 172, 226, 0.2);
   border-color: rgba(31, 172, 226, 0.2);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-info-alpha-20:hover {
     color: #fff;
     background-color: rgba(31, 172, 226, 0.2);
@@ -16683,12 +16683,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-info-alpha-20:not(:disabled):not(.disabled):active:focus, .btn-outline-info-alpha-20:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-info-alpha-20.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(31, 172, 226, 0.5); }
   .btn-outline-info-alpha-20:hover {
-    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.2) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.2); }
 
 .btn-outline-info-alpha-10 {
   color: rgba(31, 172, 226, 0.1);
   border-color: rgba(31, 172, 226, 0.1);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-info-alpha-10:hover {
     color: #fff;
     background-color: rgba(31, 172, 226, 0.1);
@@ -16705,12 +16705,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-info-alpha-10:not(:disabled):not(.disabled):active:focus, .btn-outline-info-alpha-10:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-info-alpha-10.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(31, 172, 226, 0.5); }
   .btn-outline-info-alpha-10:hover {
-    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.1) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.1); }
 
 .btn-outline-info-alpha-5 {
   color: rgba(31, 172, 226, 0.05);
   border-color: rgba(31, 172, 226, 0.05);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-info-alpha-5:hover {
     color: #fff;
     background-color: rgba(31, 172, 226, 0.05);
@@ -16727,12 +16727,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-info-alpha-5:not(:disabled):not(.disabled):active:focus, .btn-outline-info-alpha-5:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-info-alpha-5.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(31, 172, 226, 0.5); }
   .btn-outline-info-alpha-5:hover {
-    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.05) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(31, 172, 226, 0.05); }
 
 .btn-outline-success-alpha-70 {
   color: rgba(38, 172, 11, 0.7);
   border-color: rgba(38, 172, 11, 0.7);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-success-alpha-70:hover {
     color: #fff;
     background-color: rgba(38, 172, 11, 0.7);
@@ -16749,12 +16749,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-success-alpha-70:not(:disabled):not(.disabled):active:focus, .btn-outline-success-alpha-70:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-success-alpha-70.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(38, 172, 11, 0.5); }
   .btn-outline-success-alpha-70:hover {
-    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.7) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.7); }
 
 .btn-outline-success-alpha-40 {
   color: rgba(38, 172, 11, 0.4);
   border-color: rgba(38, 172, 11, 0.4);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-success-alpha-40:hover {
     color: #fff;
     background-color: rgba(38, 172, 11, 0.4);
@@ -16771,12 +16771,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-success-alpha-40:not(:disabled):not(.disabled):active:focus, .btn-outline-success-alpha-40:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-success-alpha-40.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(38, 172, 11, 0.5); }
   .btn-outline-success-alpha-40:hover {
-    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.4) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.4); }
 
 .btn-outline-success-alpha-20 {
   color: rgba(38, 172, 11, 0.2);
   border-color: rgba(38, 172, 11, 0.2);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-success-alpha-20:hover {
     color: #fff;
     background-color: rgba(38, 172, 11, 0.2);
@@ -16793,12 +16793,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-success-alpha-20:not(:disabled):not(.disabled):active:focus, .btn-outline-success-alpha-20:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-success-alpha-20.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(38, 172, 11, 0.5); }
   .btn-outline-success-alpha-20:hover {
-    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.2) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.2); }
 
 .btn-outline-success-alpha-10 {
   color: rgba(38, 172, 11, 0.1);
   border-color: rgba(38, 172, 11, 0.1);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-success-alpha-10:hover {
     color: #fff;
     background-color: rgba(38, 172, 11, 0.1);
@@ -16815,12 +16815,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-success-alpha-10:not(:disabled):not(.disabled):active:focus, .btn-outline-success-alpha-10:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-success-alpha-10.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(38, 172, 11, 0.5); }
   .btn-outline-success-alpha-10:hover {
-    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.1) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.1); }
 
 .btn-outline-success-alpha-5 {
   color: rgba(38, 172, 11, 0.05);
   border-color: rgba(38, 172, 11, 0.05);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-success-alpha-5:hover {
     color: #fff;
     background-color: rgba(38, 172, 11, 0.05);
@@ -16837,12 +16837,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-success-alpha-5:not(:disabled):not(.disabled):active:focus, .btn-outline-success-alpha-5:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-success-alpha-5.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(38, 172, 11, 0.5); }
   .btn-outline-success-alpha-5:hover {
-    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.05) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(38, 172, 11, 0.05); }
 
 .btn-outline-warning-alpha-70 {
   color: rgba(242, 152, 54, 0.7);
   border-color: rgba(242, 152, 54, 0.7);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-warning-alpha-70:hover {
     color: #0e1823;
     background-color: rgba(242, 152, 54, 0.7);
@@ -16859,12 +16859,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-warning-alpha-70:not(:disabled):not(.disabled):active:focus, .btn-outline-warning-alpha-70:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-warning-alpha-70.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(242, 152, 54, 0.5); }
   .btn-outline-warning-alpha-70:hover {
-    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.7) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.7); }
 
 .btn-outline-warning-alpha-40 {
   color: rgba(242, 152, 54, 0.4);
   border-color: rgba(242, 152, 54, 0.4);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-warning-alpha-40:hover {
     color: #0e1823;
     background-color: rgba(242, 152, 54, 0.4);
@@ -16881,12 +16881,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-warning-alpha-40:not(:disabled):not(.disabled):active:focus, .btn-outline-warning-alpha-40:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-warning-alpha-40.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(242, 152, 54, 0.5); }
   .btn-outline-warning-alpha-40:hover {
-    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.4) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.4); }
 
 .btn-outline-warning-alpha-20 {
   color: rgba(242, 152, 54, 0.2);
   border-color: rgba(242, 152, 54, 0.2);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-warning-alpha-20:hover {
     color: #0e1823;
     background-color: rgba(242, 152, 54, 0.2);
@@ -16903,12 +16903,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-warning-alpha-20:not(:disabled):not(.disabled):active:focus, .btn-outline-warning-alpha-20:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-warning-alpha-20.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(242, 152, 54, 0.5); }
   .btn-outline-warning-alpha-20:hover {
-    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.2) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.2); }
 
 .btn-outline-warning-alpha-10 {
   color: rgba(242, 152, 54, 0.1);
   border-color: rgba(242, 152, 54, 0.1);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-warning-alpha-10:hover {
     color: #0e1823;
     background-color: rgba(242, 152, 54, 0.1);
@@ -16925,12 +16925,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-warning-alpha-10:not(:disabled):not(.disabled):active:focus, .btn-outline-warning-alpha-10:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-warning-alpha-10.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(242, 152, 54, 0.5); }
   .btn-outline-warning-alpha-10:hover {
-    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.1) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.1); }
 
 .btn-outline-warning-alpha-5 {
   color: rgba(242, 152, 54, 0.05);
   border-color: rgba(242, 152, 54, 0.05);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-warning-alpha-5:hover {
     color: #0e1823;
     background-color: rgba(242, 152, 54, 0.05);
@@ -16947,12 +16947,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-warning-alpha-5:not(:disabled):not(.disabled):active:focus, .btn-outline-warning-alpha-5:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-warning-alpha-5.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(242, 152, 54, 0.5); }
   .btn-outline-warning-alpha-5:hover {
-    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.05) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(242, 152, 54, 0.05); }
 
 .btn-outline-danger-alpha-70 {
   color: rgba(235, 78, 61, 0.7);
   border-color: rgba(235, 78, 61, 0.7);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-danger-alpha-70:hover {
     color: #fff;
     background-color: rgba(235, 78, 61, 0.7);
@@ -16969,12 +16969,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-danger-alpha-70:not(:disabled):not(.disabled):active:focus, .btn-outline-danger-alpha-70:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-danger-alpha-70.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(235, 78, 61, 0.5); }
   .btn-outline-danger-alpha-70:hover {
-    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.7) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.7); }
 
 .btn-outline-danger-alpha-40 {
   color: rgba(235, 78, 61, 0.4);
   border-color: rgba(235, 78, 61, 0.4);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-danger-alpha-40:hover {
     color: #fff;
     background-color: rgba(235, 78, 61, 0.4);
@@ -16991,12 +16991,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-danger-alpha-40:not(:disabled):not(.disabled):active:focus, .btn-outline-danger-alpha-40:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-danger-alpha-40.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(235, 78, 61, 0.5); }
   .btn-outline-danger-alpha-40:hover {
-    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.4) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.4); }
 
 .btn-outline-danger-alpha-20 {
   color: rgba(235, 78, 61, 0.2);
   border-color: rgba(235, 78, 61, 0.2);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-danger-alpha-20:hover {
     color: #fff;
     background-color: rgba(235, 78, 61, 0.2);
@@ -17013,12 +17013,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-danger-alpha-20:not(:disabled):not(.disabled):active:focus, .btn-outline-danger-alpha-20:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-danger-alpha-20.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(235, 78, 61, 0.5); }
   .btn-outline-danger-alpha-20:hover {
-    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.2) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.2); }
 
 .btn-outline-danger-alpha-10 {
   color: rgba(235, 78, 61, 0.1);
   border-color: rgba(235, 78, 61, 0.1);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-danger-alpha-10:hover {
     color: #fff;
     background-color: rgba(235, 78, 61, 0.1);
@@ -17035,12 +17035,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-danger-alpha-10:not(:disabled):not(.disabled):active:focus, .btn-outline-danger-alpha-10:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-danger-alpha-10.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(235, 78, 61, 0.5); }
   .btn-outline-danger-alpha-10:hover {
-    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.1) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.1); }
 
 .btn-outline-danger-alpha-5 {
   color: rgba(235, 78, 61, 0.05);
   border-color: rgba(235, 78, 61, 0.05);
-  box-shadow: inset 0px 0 0 1px !important; }
+  box-shadow: inset 0px 0 0 1px; }
   .btn-outline-danger-alpha-5:hover {
     color: #fff;
     background-color: rgba(235, 78, 61, 0.05);
@@ -17057,7 +17057,7 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     .btn-outline-danger-alpha-5:not(:disabled):not(.disabled):active:focus, .btn-outline-danger-alpha-5:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-danger-alpha-5.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(235, 78, 61, 0.5); }
   .btn-outline-danger-alpha-5:hover {
-    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.05) !important; }
+    box-shadow: inset 0px 0 0 1px rgba(235, 78, 61, 0.05); }
 
 .btn-discreet-primary {
   color: #0F69E3;
