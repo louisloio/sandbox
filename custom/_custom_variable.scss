@@ -330,7 +330,7 @@ $alert-border-radius:               0 !default;
 $alert-link-font-weight:            $font-weight-medium !default;
 $alert-border-width:                0 !default;
 
-$alert-bg-level:                    -10 !default;
+$alert-bg-level:                    -11 !default;
 $alert-border-level:                -9 !default;
 $alert-color-level:                 6 !default;
 
@@ -340,3 +340,29 @@ $close-font-size:                   $font-size-base * 1.5 !default;
 $close-font-weight:                 $font-weight-light !default;
 $close-color:                       $black !default;
 $close-text-shadow:                 0 1px 0 $white !default;
+
+// Badges
+
+$badge-font-size:                   75% !default;
+$badge-font-weight:                 $font-weight-medium !default;
+$badge-padding-y:                   .25em !default;
+$badge-padding-x:                   .4em !default;
+$badge-border-radius:               $border-radius-sm !default;
+
+$badge-pill-padding-x:              .6em !default;
+// Use a higher than normal value to ensure completely rounded edges when
+// customizing padding or font-size on labels.
+$badge-pill-border-radius:          10rem !default;
+
+// Toasts
+
+$toast-padding-x:                   1rem !default;
+$toast-padding-y:                   1rem !default;
+$toast-font-size:                   $font-size-sm !default;
+$toast-background-color:            $white !default;
+$toast-border-width:                0 !default;
+$toast-border-radius:               1rem !default;
+
+$toast-header-color:                null !default;
+$toast-header-background-color:     rgba($white, .85) !default;
+$toast-header-border-color:         rgba(0, 0, 0, .05) !default;
