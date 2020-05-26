@@ -1,4 +1,10 @@
-@import url(../style/inter/inter.css);
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: 'Inter', sans-serif; }
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif; } }
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -87,7 +93,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --breakpoint-xxl: 1400px;
-  --font-family-sans-serif: "Inter";
+  --font-family-sans-serif: "inter";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -106,7 +112,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Inter";
+  font-family: "inter";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -9493,7 +9499,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Inter";
+  font-family: "inter";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9578,7 +9584,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Inter";
+  font-family: "inter";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
