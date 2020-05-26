@@ -319,3 +319,24 @@ $input-placeholder-color:               $gray-500 !default;
 
 
 
+// Alerts
+//
+// Define alert colors, border radius, and padding.
+
+$alert-padding-y:                   1rem !default;
+$alert-padding-x:                   1rem !default;
+$alert-margin-bottom:               0 !default;
+$alert-border-radius:               0 !default;
+$alert-link-font-weight:            $font-weight-medium !default;
+$alert-border-width:                0 !default;
+
+$alert-bg-level:                    -10 !default;
+$alert-border-level:                -9 !default;
+$alert-color-level:                 6 !default;
+
+// Close
+
+$close-font-size:                   $font-size-base * 1.5 !default;
+$close-font-weight:                 $font-weight-light !default;
+$close-color:                       $black !default;
+$close-text-shadow:                 0 1px 0 $white !default;
