@@ -17007,6 +17007,9 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
 .text-danger {
   color: #e32b17 !important; }
 
+.font-weight-medium {
+  font-weight: 500 !important; }
+
 .list-group-panel {
   display: flex;
   flex-direction: column;

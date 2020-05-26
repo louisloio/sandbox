@@ -3,3 +3,5 @@
 .text-warning { color: darken($warning, 22%) !important; }
 .text-danger { color: darken($danger, 9%) !important; }
 
+// Weight and italics
+.font-weight-medium  { font-weight: $font-weight-medium !important; }
