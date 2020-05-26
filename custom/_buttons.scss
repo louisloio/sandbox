@@ -1,5 +1,11 @@
 
 
+.btn {
+  border-radius: $rounded-pill;
+ 
+  }
+
+
 @each $color, $value in $theme-colors {
     .btn-discreet-#{$color} {
       @include button-discreet-variant($value);
@@ -7,7 +13,7 @@
   }
   
   .btn-default {
-    border-width: $border-width * 2;
+    border-width: $border-width;
     border-color: $border-color;
     
     &:hover {

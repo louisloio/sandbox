@@ -1,5 +1,6 @@
 //Bootstrap override here
-@import "_custom_variable.scss";
+@import "custom_variable";
+@import "custom_mixins";
 
 //bootstrap here
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -11,4 +12,3 @@
 
 //added molecule
 @import "list-group-panel";
-@import "list-group-sidebar";
