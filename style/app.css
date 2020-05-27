@@ -18386,6 +18386,21 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
 .font-weight-medium {
   font-weight: 500 !important; }
 
+.icon-xs {
+  font-size: 1.125rem !important; }
+
+.icon-sm {
+  font-size: 1.5rem !important; }
+
+.icon-lg {
+  font-size: 2rem !important; }
+
+.icon-xl {
+  font-size: 3rem !important; }
+
+.icon-xxl {
+  font-size: 4rem !important; }
+
 .list-group-panel {
   display: flex;
   flex-direction: column;
