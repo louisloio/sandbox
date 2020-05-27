@@ -317,6 +317,31 @@ $input-focus-border-color:              $primary !default;
 
 $input-placeholder-color:               $gray-500 !default;
 
+//forms - checkbox
+$custom-control-indicator-size:         1.375rem !default;
+$custom-control-indicator-border-width: 0 !default;
+
+// $custom-control-indicator-checked-color:        $component-active-color !default;
+// $custom-control-indicator-checked-bg:           $component-active-bg !default;
+$custom-control-indicator-checked-disabled-bg:  rgba($secondary, .10) !default;
+$custom-control-indicator-checked-box-shadow:   none !default;
+// $custom-control-indicator-checked-border-color: $custom-control-indicator-checked-bg !default;
+
+// $custom-checkbox-indicator-border-radius:        !default;
+// $custom-checkbox-indicator-icon-checked:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'><path fill='#{$custom-control-indicator-checked-color}' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/></svg>") !default;
+
+// $custom-checkbox-indicator-indeterminate-bg:           $component-active-bg !default;
+// $custom-checkbox-indicator-indeterminate-color:        $custom-control-indicator-checked-color !default;
+// $custom-checkbox-indicator-icon-indeterminate:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'><path stroke='#{$custom-checkbox-indicator-indeterminate-color}' d='M0 2h4'/></svg>") !default;
+$custom-checkbox-indicator-indeterminate-box-shadow:   none !default;
+// $custom-checkbox-indicator-indeterminate-border-color: $custom-checkbox-indicator-indeterminate-bg !default;
+
+
+// $custom-checkbox-indicator-icon-checked:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black' width='18px' height='18px'><path d='M0 0h24v24H0z' fill='none'/><path d='M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z'/></svg>") !default;
+// $custom-checkbox-indicator-icon-indeterminate:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'><path stroke='#{$custom-checkbox-indicator-indeterminate-color}' d='M0 2h4'/></svg>") !default;
+
+
+
 
 
 // Alerts
