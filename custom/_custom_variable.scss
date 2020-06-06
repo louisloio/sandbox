@@ -233,6 +233,8 @@ $border-radius:               .25rem !default;
 $border-radius-lg:            .3rem !default;
 $border-radius-sm:            .2rem !default;
 
+$component-active-color:      $white !default;
+$component-active-bg:         $primary !default;
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
@@ -321,14 +323,14 @@ $input-placeholder-color:               $gray-500 !default;
 $custom-control-indicator-size:         1.375rem !default;
 $custom-control-indicator-border-width: 0 !default;
 
-// $custom-control-indicator-checked-color:        $component-active-color !default;
+ $custom-control-indicator-checked-color:        $component-active-color !default;
 // $custom-control-indicator-checked-bg:           $component-active-bg !default;
 $custom-control-indicator-checked-disabled-bg:  rgba($secondary, .10) !default;
 $custom-control-indicator-checked-box-shadow:   none !default;
 // $custom-control-indicator-checked-border-color: $custom-control-indicator-checked-bg !default;
 
 // $custom-checkbox-indicator-border-radius:        !default;
-// $custom-checkbox-indicator-icon-checked:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'><path fill='#{$custom-control-indicator-checked-color}' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/></svg>") !default;
+ $custom-checkbox-indicator-icon-checked:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 0 24 24' width='20'><path d='M0 0h24v24H0z' fill='none'/><path fill='#{$custom-control-indicator-checked-color}' d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/></svg>") !default;
 
 // $custom-checkbox-indicator-indeterminate-bg:           $component-active-bg !default;
 // $custom-checkbox-indicator-indeterminate-color:        $custom-control-indicator-checked-color !default;
