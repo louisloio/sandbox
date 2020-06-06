@@ -329,8 +329,8 @@ $custom-control-indicator-checked-disabled-bg:  rgba($secondary, .10) !default;
 $custom-control-indicator-checked-box-shadow:   none !default;
 // $custom-control-indicator-checked-border-color: $custom-control-indicator-checked-bg !default;
 
-// $custom-checkbox-indicator-border-radius:        !default;
- $custom-checkbox-indicator-icon-checked:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 0 24 24' width='20'><path d='M0 0h24v24H0z' fill='none'/><path fill='#{$custom-control-indicator-checked-color}' d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/></svg>") !default;
+$custom-checkbox-indicator-border-radius:       $border-radius-sm !default;
+$custom-checkbox-indicator-icon-checked:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 0 24 24' width='20'><path d='M0 0h24v24H0z' fill='none'/><path fill='#{$custom-control-indicator-checked-color}' d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/></svg>") !default;
 
 // $custom-checkbox-indicator-indeterminate-bg:           $component-active-bg !default;
 // $custom-checkbox-indicator-indeterminate-color:        $custom-control-indicator-checked-color !default;
