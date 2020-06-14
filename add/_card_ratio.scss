@@ -1,0 +1,215 @@
+//
+// Base styles
+//
+
+.card-rec-h {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+  height: $card-height;
+  word-wrap: break-word;
+  background-color: $card-bg;
+  background-clip: border-box;
+  border: $card-border-width solid $card-border-color;
+  @include border-radius($card-border-radius);
+  padding-top: 60%;
+
+  > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  > .list-group {
+    border-top: inherit;
+    border-bottom: inherit;
+
+    &:first-child {
+      border-top-width: 0;
+      @include border-top-radius($card-inner-border-radius);
+    }
+
+    &:last-child  {
+      border-bottom-width: 0;
+      @include border-bottom-radius($card-inner-border-radius);
+    }
+  }
+
+  .card-body {
+    position: absolute;
+    top: 0;
+    // Enable `flex-grow: 1` for decks and groups so that card blocks take up
+    // as much space as possible, ensuring footers are aligned to the bottom.
+    flex: 1 1 auto;
+    // Workaround for the image size bug in IE
+    // See: https://github.com/twbs/bootstrap/pull/28855
+    min-height: 1px;
+    padding: $card-spacer-x;
+    color: $card-color;
+  }
+
+  .card-title {
+    margin-bottom: $card-spacer-y;
+  }
+
+  .card-subtitle {
+    margin-top: -$card-spacer-y / 2;
+    margin-bottom: 0;
+  }
+
+  .card-text:last-child {
+    margin-bottom: 0;
+  }
+
+  .card-link {
+    @include hover() {
+      text-decoration: none;
+    }
+
+    + .card-link {
+      margin-left: $card-spacer-x;
+    }
+  }
+}
+
+.card-rec-v {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+  height: $card-height;
+  word-wrap: break-word;
+  background-color: $card-bg;
+  background-clip: border-box;
+  border: $card-border-width solid $card-border-color;
+  @include border-radius($card-border-radius);
+  padding-top: 160%;
+
+  > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  > .list-group {
+    border-top: inherit;
+    border-bottom: inherit;
+
+    &:first-child {
+      border-top-width: 0;
+      @include border-top-radius($card-inner-border-radius);
+    }
+
+    &:last-child  {
+      border-bottom-width: 0;
+      @include border-bottom-radius($card-inner-border-radius);
+    }
+  }
+
+  .card-body {
+    position: absolute;
+    top: 0;
+    // Enable `flex-grow: 1` for decks and groups so that card blocks take up
+    // as much space as possible, ensuring footers are aligned to the bottom.
+    flex: 1 1 auto;
+    // Workaround for the image size bug in IE
+    // See: https://github.com/twbs/bootstrap/pull/28855
+    min-height: 1px;
+    padding: $card-spacer-x;
+    color: $card-color;
+  }
+
+  .card-title {
+    margin-bottom: $card-spacer-y;
+  }
+
+  .card-subtitle {
+    margin-top: -$card-spacer-y / 2;
+    margin-bottom: 0;
+  }
+
+  .card-text:last-child {
+    margin-bottom: 0;
+  }
+
+  .card-link {
+    @include hover() {
+      text-decoration: none;
+    }
+
+    + .card-link {
+      margin-left: $card-spacer-x;
+    }
+  }
+}
+
+.card-sq {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+  height: $card-height;
+  word-wrap: break-word;
+  background-color: $card-bg;
+  background-clip: border-box;
+  border: $card-border-width solid $card-border-color;
+  @include border-radius($card-border-radius);
+  padding-top: 100%;
+
+  > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  > .list-group {
+    border-top: inherit;
+    border-bottom: inherit;
+
+    &:first-child {
+      border-top-width: 0;
+      @include border-top-radius($card-inner-border-radius);
+    }
+
+    &:last-child  {
+      border-bottom-width: 0;
+      @include border-bottom-radius($card-inner-border-radius);
+    }
+  }
+
+  .card-body {
+    position: absolute;
+    top: 0;
+    // Enable `flex-grow: 1` for decks and groups so that card blocks take up
+    // as much space as possible, ensuring footers are aligned to the bottom.
+    flex: 1 1 auto;
+    // Workaround for the image size bug in IE
+    // See: https://github.com/twbs/bootstrap/pull/28855
+    min-height: 1px;
+    padding: $card-spacer-x;
+    color: $card-color;
+  }
+
+  .card-title {
+    margin-bottom: $card-spacer-y;
+  }
+
+  .card-subtitle {
+    margin-top: -$card-spacer-y / 2;
+    margin-bottom: 0;
+  }
+
+  .card-text:last-child {
+    margin-bottom: 0;
+  }
+
+  .card-link {
+    @include hover() {
+      text-decoration: none;
+    }
+
+    + .card-link {
+      margin-left: $card-spacer-x;
+    }
+  }
+}
+
+

@@ -18516,4 +18516,133 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     color: #000;
     box-shadow: 0px 3px 0px 0px; }
 
+.card-rec-h {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding-top: 60%; }
+  .card-rec-h > hr {
+    margin-right: 0;
+    margin-left: 0; }
+  .card-rec-h > .list-group {
+    border-top: inherit;
+    border-bottom: inherit; }
+    .card-rec-h > .list-group:first-child {
+      border-top-width: 0;
+      border-top-left-radius: calc(0.25rem - 1px);
+      border-top-right-radius: calc(0.25rem - 1px); }
+    .card-rec-h > .list-group:last-child {
+      border-bottom-width: 0;
+      border-bottom-right-radius: calc(0.25rem - 1px);
+      border-bottom-left-radius: calc(0.25rem - 1px); }
+  .card-rec-h .card-body {
+    position: absolute;
+    top: 0;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem; }
+  .card-rec-h .card-title {
+    margin-bottom: 0.75rem; }
+  .card-rec-h .card-subtitle {
+    margin-top: -0.375rem;
+    margin-bottom: 0; }
+  .card-rec-h .card-text:last-child {
+    margin-bottom: 0; }
+  .card-rec-h .card-link:hover {
+    text-decoration: none; }
+  .card-rec-h .card-link + .card-link {
+    margin-left: 1.25rem; }
+
+.card-rec-v {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding-top: 160%; }
+  .card-rec-v > hr {
+    margin-right: 0;
+    margin-left: 0; }
+  .card-rec-v > .list-group {
+    border-top: inherit;
+    border-bottom: inherit; }
+    .card-rec-v > .list-group:first-child {
+      border-top-width: 0;
+      border-top-left-radius: calc(0.25rem - 1px);
+      border-top-right-radius: calc(0.25rem - 1px); }
+    .card-rec-v > .list-group:last-child {
+      border-bottom-width: 0;
+      border-bottom-right-radius: calc(0.25rem - 1px);
+      border-bottom-left-radius: calc(0.25rem - 1px); }
+  .card-rec-v .card-body {
+    position: absolute;
+    top: 0;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem; }
+  .card-rec-v .card-title {
+    margin-bottom: 0.75rem; }
+  .card-rec-v .card-subtitle {
+    margin-top: -0.375rem;
+    margin-bottom: 0; }
+  .card-rec-v .card-text:last-child {
+    margin-bottom: 0; }
+  .card-rec-v .card-link:hover {
+    text-decoration: none; }
+  .card-rec-v .card-link + .card-link {
+    margin-left: 1.25rem; }
+
+.card-sq {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding-top: 100%; }
+  .card-sq > hr {
+    margin-right: 0;
+    margin-left: 0; }
+  .card-sq > .list-group {
+    border-top: inherit;
+    border-bottom: inherit; }
+    .card-sq > .list-group:first-child {
+      border-top-width: 0;
+      border-top-left-radius: calc(0.25rem - 1px);
+      border-top-right-radius: calc(0.25rem - 1px); }
+    .card-sq > .list-group:last-child {
+      border-bottom-width: 0;
+      border-bottom-right-radius: calc(0.25rem - 1px);
+      border-bottom-left-radius: calc(0.25rem - 1px); }
+  .card-sq .card-body {
+    position: absolute;
+    top: 0;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem; }
+  .card-sq .card-title {
+    margin-bottom: 0.75rem; }
+  .card-sq .card-subtitle {
+    margin-top: -0.375rem;
+    margin-bottom: 0; }
+  .card-sq .card-text:last-child {
+    margin-bottom: 0; }
+  .card-sq .card-link:hover {
+    text-decoration: none; }
+  .card-sq .card-link + .card-link {
+    margin-left: 1.25rem; }
+
 /*# sourceMappingURL=app.css.map */
