@@ -18401,6 +18401,18 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
 .icon-xxl {
   font-size: 4rem !important; }
 
+.rounded-sm {
+  border-radius: .25rem !important; }
+
+.rounded {
+  border-radius: 1rem !important; }
+
+.rounded-lg {
+  border-radius: 1.5rem !important; }
+
+.rounded-xl {
+  border-radius: 2rem !important; }
+
 .custom-checkbox .custom-control-label::before {
   border: 2px solid #bec2c4;
   background-color: transparent; }
@@ -18550,7 +18562,7 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
   .card-rec-h .card-footer {
     position: absolute;
     bottom: 0;
-    background-color: inherit;
+    background-color: transparent;
     padding-top: 0;
     border: none; }
   .card-rec-h .card-title {
@@ -18599,7 +18611,7 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
   .card-rec-v .card-footer {
     position: absolute;
     bottom: 0;
-    background-color: inherit;
+    background-color: transparent;
     padding-top: 0;
     border: none; }
   .card-rec-v .card-title {
@@ -18648,7 +18660,7 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
   .card-sq .card-footer {
     position: absolute;
     bottom: 0;
-    background-color: inherit;
+    background-color: transparent;
     padding-top: 0;
     border: none; }
   .card-sq .card-title {
