@@ -411,3 +411,13 @@ $toast-border-radius:               1rem !default;
 $toast-header-color:                null !default;
 $toast-header-background-color:     rgba($white, .85) !default;
 $toast-header-border-color:         rgba(0, 0, 0, .05) !default;
+
+//disabled color
+
+$dropdown-link-disabled-color:                  rgba($secondary, .4) !important !default;
+$pagination-disabled-color:                     rgba($secondary, .4) !important !default;
+$list-group-disabled-color:                     rgba($secondary, .4) !important !default;
+$btn-link-disabled-color:                       rgba($secondary, .4) !important !default;
+$custom-control-label-disabled-color:           rgba($secondary, .4) !important !default;
+$custom-select-disabled-color:                  rgba($secondary, .4) !important !default;
+$nav-link-disabled-color:                       rgba($secondary, .4) !important !default;
