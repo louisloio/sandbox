@@ -18547,6 +18547,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem; }
+  .card-rec-h .card-footer {
+    position: absolute;
+    bottom: 0;
+    background-color: inherit;
+    padding-top: 0;
+    border: none; }
   .card-rec-h .card-title {
     margin-bottom: 0.75rem; }
   .card-rec-h .card-subtitle {
@@ -18590,6 +18596,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem; }
+  .card-rec-v .card-footer {
+    position: absolute;
+    bottom: 0;
+    background-color: inherit;
+    padding-top: 0;
+    border: none; }
   .card-rec-v .card-title {
     margin-bottom: 0.75rem; }
   .card-rec-v .card-subtitle {
@@ -18633,6 +18645,12 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem; }
+  .card-sq .card-footer {
+    position: absolute;
+    bottom: 0;
+    background-color: inherit;
+    padding-top: 0;
+    border: none; }
   .card-sq .card-title {
     margin-bottom: 0.75rem; }
   .card-sq .card-subtitle {
