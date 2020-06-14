@@ -18488,4 +18488,39 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
   .list-group-item-sidebar-action.active {
     color: #0F69E3; }
 
+.nav-page .nav-item:first-child {
+  margin-left: 0 !important; }
+.nav-page .nav-item {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+  .nav-page .nav-item .nav-link {
+    border-radius: 0;
+    padding: 0.5rem 0;
+    color: #72757e; }
+.nav-page .nav-link.active,
+.nav-page .show > .nav-link {
+  color: #000;
+  box-shadow: 0px 3px 0px 0px; }
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+
+.nav-section {
+  border-bottom: 3px solid #e4e5e6; }
+  .nav-section .nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    .nav-section .nav-item .nav-link {
+      border-radius: 0;
+      padding: 0.5rem 0;
+      color: #72757e; }
+  .nav-section .nav-link.active,
+  .nav-section .show > .nav-link {
+    color: #000;
+    box-shadow: 0px 3px 0px 0px; }
+
 /*# sourceMappingURL=app.css.map */

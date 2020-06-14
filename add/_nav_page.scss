@@ -1,0 +1,30 @@
+
+
+//
+// Pills
+//
+
+.nav-page {
+  .nav-item:first-child{
+    margin-left: 0 !important;
+    }
+  .nav-item{
+    margin-left: 1rem ;
+    margin-right: 1rem ;
+  
+  .nav-link {
+    border-radius: 0;
+    padding: 0.5rem 0;
+    color: $secondary;
+  }
+}
+
+  
+
+  .nav-link.active,
+  .show > .nav-link {
+    color: $black;
+    box-shadow: 0px 3px 0px 0px;
+  }
+}
+
