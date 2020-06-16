@@ -18511,7 +18511,7 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
     color: #72757e; }
 .nav-page .nav-link.active,
 .nav-page .show > .nav-link {
-  color: #000;
+  color: #0F69E3;
   box-shadow: 0px 3px 0px 0px; }
 
 .nav-section {
@@ -18525,7 +18525,7 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
       color: #72757e; }
   .nav-section .nav-link.active,
   .nav-section .show > .nav-link {
-    color: #000;
+    color: #0F69E3;
     box-shadow: 0px 3px 0px 0px; }
 
 .card-rec-h {
