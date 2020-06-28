@@ -347,7 +347,10 @@ $custom-select-border-radius:       $rounded-pill !default;
 
 
 //forms - checkbox
-$custom-control-indicator-size:         1.375rem !default;
+$custom-control-indicator-size-sm:         1.5rem !default;
+$custom-control-indicator-size:         1.5rem !default;
+$custom-control-indicator-size-lg:         2rem !default;
+$custom-control-indicator-size-xl:         1.5rem !default;
 $custom-control-indicator-border-width: 0 !default;
 
  $custom-control-indicator-checked-color:        $component-active-color !default;
@@ -368,6 +371,9 @@ $custom-checkbox-indicator-indeterminate-box-shadow:   none !default;
 
 // $custom-checkbox-indicator-icon-checked:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black' width='18px' height='18px'><path d='M0 0h24v24H0z' fill='none'/><path d='M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z'/></svg>") !default;
 // $custom-checkbox-indicator-icon-indeterminate:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'><path stroke='#{$custom-checkbox-indicator-indeterminate-color}' d='M0 2h4'/></svg>") !default;
+
+$custom-radio-indicator-icon-checked:           url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 0 24 24' width='20'><path d='M0 0h24v24H0z' fill='none'/><path fill='#{$custom-control-indicator-checked-color}' d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/></svg>") !default;
+
 
 
 
