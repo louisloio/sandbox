@@ -1,0 +1,31 @@
+// switches
+//
+// Tweak a few things for switches
+
+.custom-switch {
+
+  .custom-control-label {
+    &::before {
+    }
+
+    &::after {
+      
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    &::before { 
+      background-color: rgba($primary, .20);
+    }
+
+    &::after {
+      background-color: $primary !important;
+    }
+  }
+
+  .custom-control-input:disabled {
+    &:checked ~ .custom-control-label::before {
+    
+    }
+  }
+}

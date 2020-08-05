@@ -8,6 +8,11 @@ html {
 .toast-body {
   padding: 0 1rem 1rem 1rem !important; }
 
+.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: rgba(15, 105, 227, 0.2); }
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #0F69E3 !important; }
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
