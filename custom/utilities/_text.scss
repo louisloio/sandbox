@@ -6,6 +6,11 @@
 // Weight and italics
 .font-weight-medium  { font-weight: $font-weight-medium !important; }
 
+//text size
+.text-xs { font-size: $font-size-xs !important;}  
+.text-sm { font-size: $font-size-sm !important;}  
+.text-lg { font-size: $font-size-lg !important;}  
+
 //icons size
 .icon-xs { font-size: $icon-size-xs !important;}  
 .icon-sm { font-size: $icon-size-sm !important;}  

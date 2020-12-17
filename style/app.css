@@ -18391,6 +18391,15 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
 .font-weight-medium {
   font-weight: 500 !important; }
 
+.text-xs {
+  font-size: 0.75rem !important; }
+
+.text-sm {
+  font-size: 0.875rem !important; }
+
+.text-lg {
+  font-size: 1.25rem !important; }
+
 .icon-xs {
   font-size: 1.125rem !important; }
 
