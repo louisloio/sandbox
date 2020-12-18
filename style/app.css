@@ -18552,7 +18552,8 @@ select {
 
 .product-preview {
   width: 100%;
-  padding-top: 60%; }
+  padding-top: 60%;
+  background-size: cover; }
 
 .product-action {
   position: fixed;
