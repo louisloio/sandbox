@@ -18309,7 +18309,8 @@ a.text-danger-alpha-5:hover, a.text-danger-alpha-5:focus {
 
 .btn-default {
   border-width: 1px;
-  border-color: #e4e5e6; }
+  border-color: #e4e5e6;
+  background-color: white; }
   .btn-default:hover {
     background-color: rgba(114, 117, 126, 0.05); }
   .btn-default:focus, .btn-default.focus {
