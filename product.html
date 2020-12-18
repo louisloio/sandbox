@@ -24,11 +24,12 @@
             </div>
         </div>
     </div>
-    <div class="product-background d-flex flex-column justify-content-end">
-        <div class="product-preview">
 
+
+    <div class="product-background d-flex flex-column justify-content-end overflow-scrolling">
+        <div class="product-preview">
         </div>
-        <div class="container bg-info p-4">
+        <div class="container bg-white p-4">
             <div class="row">
                 <div class="col">
                     <div class="d-flex justify-content-between">
@@ -43,36 +44,24 @@
                 </div>
             </div>
             <div class="d-flex align-items-center justify-content-center my-4">
-                <button class="btn btn-default btn-icon"><span class="material-icons">remove</span></button>
+                <button class="btn btn-discreet-danger btn-icon"><span class="material-icons">remove</span></button>
                 <span class="mx-3 display-4 font-weight-normal">1</span>
-                <button class="btn btn-default btn-icon"><span class="material-icons">add</span></button>
+                <button class="btn btn-discreet-success btn-icon"><span class="material-icons">add</span></button>
             </div>
-            <div class="row">
+            <div class="mb-8">
+                
+            </div>
+            <div class="row product-action py-4 bg-white">
                 <div class="col">
-                    <button class="btn btn-primary btn-lg btn-block">Add baskets</button>
+                    <button class="btn btn-primary btn-lg btn-block mb-2">Add baskets</button>
+                    <button class="btn btn-discreet-primary btn-lg btn-block">Cancel</button>
                 </div>
             </div>
         </div>
-
     </div>
     
 
-    <style>
-        .product-background{
-            position: absolute;
-            top: 0;
-            min-height: 100vh;
-            width: 100%;
-            background-color: rgb(0 0 0 / 80%);
-
-        }
-        .product-preview{
-            width: 100%;
-            padding-top: 60%;
-            background-color: red;
-        }
-        
-    </style>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
