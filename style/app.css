@@ -18543,6 +18543,10 @@ select {
   background-position: center;
   background-size: cover; }
 
+.item-quantity {
+  min-width: 3rem;
+  text-align: center; }
+
 .product-background {
   position: absolute;
   top: 0;
