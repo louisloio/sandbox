@@ -18558,7 +18558,8 @@ select {
 .product-preview {
   width: 100%;
   padding-top: 60%;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .product-action {
   position: fixed;
