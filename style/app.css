@@ -18561,6 +18561,11 @@ select {
   width: 100%;
   bottom: 0; }
 
+@media only screen and (max-width: 540px) {
+  .item-catalog {
+    border: inherit;
+    border-top: 1px solid #e4e5e6;
+    border-radius: inherit !important; } }
 .nav-page .nav-item:first-child {
   margin-left: 0 !important; }
 .nav-page .nav-item {
