@@ -18830,7 +18830,8 @@ select {
   width: 100%;
   padding-top: 60%;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  border-radius: inherit; }
 
 .product-action {
   position: fixed;
