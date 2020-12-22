@@ -23,7 +23,11 @@
   }
 
   &:active,
-  &.active,
+  &.active,{
+    color: $color;
+    background: rgba($color, .2);
+    border-color:  none;
+  }
   &.dropdown-toggle.show {
     color: $active-color;
     background-color: $active-background;

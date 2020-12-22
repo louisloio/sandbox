@@ -13,7 +13,7 @@
     <title>GSDS</title>
 </head>
 
-<body>
+<body class="bg-lvl3">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -21,59 +21,57 @@
                 <p class="lead text-secondary">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor feugiat quam in lobortis. Curabitur quis commodo mi. In pellentesque a metus non suscipit. Duis quis nisl nisi. Suspendisse tincidunt magna nec scelerisque luctus. Mauris fermentum mauris vel feugiat mollis. Donec sit amet neque at felis maximus blandit a quis nisl. Curabitur ut tincidunt justo. Quisque non massa justo. Etiam non sem eget leo posuere maximus sed et tortor. Etiam non ligula eros. Praesent blandit orci sed malesuada pretium.
                 </p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Launch demo modal
+                  </button>
             </div>
         </div>
-    </div>
-
-
-    <div class="product-background d-flex flex-column justify-content-end overflow-scrolling">
-        <div class="product-preview">
-        </div>
-        <div class="container bg-white p-4">
-            <div class="row">
-                <div class="col">
-                    <div class="d-flex justify-content-between">
-                        <h3>Product name</h3>
-                        <div class="text-secondary text-right ml-4">
-                            <span class="text-sm">£</span><span>0.00</span>
-                        </div>
-                    </div>
-                    <p class="text-secondary m-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor feugiat quam in lobortis. Curabitur quis commodo mi.
-                    </p>
+        <div class="modal fade d-flex d-sm-block justify-content-center align-items-end show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
+            <div class="modal-dialog w-100">
+              <div class="modal-content">
+                <div class="modal-header p-0">
+                  <div class="product-preview" [ngStyle]="{ 'background-image': 'url(' + product.product.image + ')'}">
+                  </div>
                 </div>
-            </div>
-            <div class="d-flex align-items-center justify-content-center my-4">
-                <button class="btn btn-discreet-danger btn-icon"><span class="material-icons">remove</span></button>
-                <span class="mx-3 display-4 font-weight-normal">1</span>
-                <button class="btn btn-discreet-success btn-icon"><span class="material-icons">add</span></button>
-            </div>
-            <div class="mb-8">
-                
-            </div>
-            <div class="row product-action py-4 bg-white">
-                <div class="col">
-                    <button class="btn btn-primary btn-lg btn-block mb-2">Add baskets</button>
-                    <button class="btn btn-discreet-primary btn-lg btn-block">Cancel</button>
+                <div class="modal-body">
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h3>Product</h3>
+                    <span class="text-secondary">$545</span>
+                  </div>
+                  <p class="text-secondary text-sm m-0">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur fugit ducimus quos necessitatibus iste provident quasi repellat sapiente nemo ab officia ut ipsum unde, cum animi qui accusamus facilis odio!
+                  </p>
+                  <div class="d-flex align-items-center justify-content-center my-4">
+                    <button class="btn btn-discreet-danger btn-icon" type="button" (click)="decreaseQuantity()"><span
+                      class="material-icons">remove</span></button>
+                    <span class="mx-2 display-4 font-weight-normal item-quantity">1</span>
+                    <button class="btn btn-discreet-success btn-icon" type="button" (click)="increaseQuantity()"><span
+                      class="material-icons">add</span></button>
+                  </div>
                 </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary btn-lg btn-block mb-2" type="button"
+                          (click)="addToBasketClick(product.product, selectedProductQuantity)" data-dismiss="modal" aria-label="Close">
+                    Add baskets
+                  </button>
+                  <button class="btn btn-discreet-primary btn-lg btn-block" (click)="cancelClick()" data-dismiss="modal" aria-label="Close">Cancel</button>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
+    
     </div>
     
+<!-- Button trigger modal -->
 
+
+   
     
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 
 </html>
