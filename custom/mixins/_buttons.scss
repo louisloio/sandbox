@@ -12,9 +12,9 @@
   background: rgba($color, .05);
 
   &:hover {
-    color: white;
-    background-color: $active-background;
-    border-color: $active-border;
+    color: $color;
+    background: rgba($color, .15);
+    border-color:  none;
   }
 
   &:focus,
