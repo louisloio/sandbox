@@ -33,7 +33,7 @@ http://koala-app.com/
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="style/app.css">
 
-    <title>GSDS</title>
+    <title>louilo design</title>
   </head>
   <body>
 
