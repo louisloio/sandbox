@@ -17,7 +17,7 @@ http://koala-app.com/
 
 - Custom folder is for overide you do on bootstrap
 - Add folder is for everything you add to bootstrap such as new components style
-- Bootstrap_scss folder is the source folder of Bootstrap v4.4.x fell free to update it with NPM
+- node_modules/bootstrap folder is the source folder of Bootstrap v4.4.x fell free to update it with NPM
 - style/app.scss is the main file to compile app.css amd app.css.map
 - index.html is the main file with a few bootstrap components
 
