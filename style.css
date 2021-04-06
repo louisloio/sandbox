@@ -1,0 +1,93 @@
+
+.hero{
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.bg-black{
+    background-color: black;
+}
+
+@media only screen and (min-width: 1201px) {
+    
+    .hero {
+      height: 57rem;
+    }
+
+  }
+
+@media only screen and (max-width: 1200px) {
+    
+    .hero {
+      height: 48rem;
+      max-width: 66rem ;
+    }
+
+  }
+
+.text_animate{
+    animation-duration: 700ms !important;
+
+}
+
+.illu_animate{
+    animation-duration: 700ms !important;
+
+}
+
+.illu_1{
+    width: 35rem;
+    height: 24rem;
+}
+
+.illu_1_left{
+    position: absolute;
+    z-index: 200;
+    bottom: 2.25rem;
+    left:15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 5px -2px rgb(0 0 0 / 10%), 0 7px 10px 1px rgb(0 0 0 / 7%), 0 2px 16px 1px rgb(0 0 0 / 6%);
+    animation-duration: 700ms !important;
+    animation-delay: 100ms !important;
+    transform-origin: 150px;
+}
+
+.illu_1_middle{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 5.375rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 10%), 0 4px 5px 0 rgb(0 0 0 / 7%), 0 1px 10px 0 rgb(0 0 0 / 6%);
+    animation-duration: 700ms !important;
+}
+
+.illu_1_right{
+    position: absolute;
+    z-index: 300;
+    top: 4.875rem;
+    right: 0rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 10%), 0 5px 8px 0 rgb(0 0 0 / 7%), 0 1px 14px 0 rgb(0 0 0 / 6%);
+    animation-duration: 700ms !important;
+    animation-delay: 100ms !important;
+    transform-origin: 0px;
+}
+
+.photo_3{
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 10%), 0 4px 5px 0 rgb(0 0 0 / 7%), 0 1px 10px 0 rgb(0 0 0 / 6%);
+    border-radius: 8px;
+
+}
+
+.illu_3_right{
+    position: absolute;
+    z-index: 9000;
+    bottom: -3rem;
+    right: 3rem;
+    width: 10rem;
+    box-shadow: 0 4px 5px -2px rgb(0 0 0 / 10%), 0 7px 10px 1px rgb(0 0 0 / 7%), 0 2px 16px 1px rgb(0 0 0 / 6%);
+
+}

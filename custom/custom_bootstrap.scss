@@ -1,8 +1,6 @@
 //Bootstrap override here
 @import "custom_variable";
-@import "toasts";
-@import "custom-forms-switch";
-@import "custom-modal";
+
 
 //bootstrap here
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -11,12 +9,3 @@
 @import "mixins";
 @import "buttons";
 @import "utilities";
-@import "custom-forms";
-
-//added molecule
-@import "../add/list-group-panel";
-@import "../add/list-group-sidebar";
-@import "../add/list-group-catalog";
-@import "../add/nav_page";
-@import "../add/nav_section";
-@import "../add/card_ratio";
